@@ -1,25 +1,25 @@
 class Lavatui < Formula
   desc "A lava lamp for your terminal: glowing wax blobs that rise, sink, merge and split, with a clock, a pomodoro timer and now-playing music"
   homepage "https://github.com/vespillo-tech/LavaTUI"
-  version "1.2.0"
+  version "1.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.2.0/lavatui-aarch64-apple-darwin.tar.xz"
-      sha256 "bd4d0d75458279e2578fedd35c2b330c312f05b63cd04ddb8ffa9318fe427361"
+      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.3.0/lavatui-aarch64-apple-darwin.tar.xz"
+      sha256 "f3a23536ffc0192addd5cf0ca6781bb8224de1dca2fd9deda72d3ac57a5ea6a8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.2.0/lavatui-x86_64-apple-darwin.tar.xz"
-      sha256 "d7efa9d1020d87a3093add4db88f04cb870c712e478696f0ce55e80a53ff2086"
+      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.3.0/lavatui-x86_64-apple-darwin.tar.xz"
+      sha256 "deb9398256b863337c6e9fd5800e61623cab407a6da8cdf3f551328abcc19414"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.2.0/lavatui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f5299693d44f35a8b6ce8ee5f03a86dfe6557e09c5c9069535eb7d40f582052e"
+      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.3.0/lavatui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e830c71b8ca73248e5ce859a066d27ea32b7790c8f19eeb2d6a21187fd30207d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.2.0/lavatui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8b1860aa04167d042828955ddbc897d8f98e20b56883af871772e28baae20921"
+      url "https://github.com/vespillo-tech/LavaTUI/releases/download/v1.3.0/lavatui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "23dfb8fa16cd30e80b3e6e3dfb346cd9bee1d0b58c833cd05565e68c1b46ada2"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
